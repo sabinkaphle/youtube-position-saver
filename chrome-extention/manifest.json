@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Position Saver",
+    "version": "0.1.0",
+    "description": "Save and return to a YouTube playback position",
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
